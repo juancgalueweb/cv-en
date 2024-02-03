@@ -1,0 +1,430 @@
+{
+  "basics": {
+    "name": "Juan Carlos Galué",
+    "label": "Full Stack Developer with MERN. I hold a Bachelor degree in Electrical Engineering",
+    "image": "/me.webp",
+    "email": "juancgalue@gmail.com",
+    "phone": "+56933544532",
+    "url": "https://portfolio-juancgalueweb.vercel.app/en",
+    "summary": "Full-stack developer proficient in Javascript and MERN stack, fluent in English and Spanish, with education from Coding Dojo Bootcamp. I bring a friendly, confident, and passionate approach to challenges, and thrive in collaborative team environments.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Santiago de Chile",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juancgalue",
+        "url": "https://www.linkedin.com/in/juancgalue/"
+      },
+      {
+        "network": "GitHub",
+        "username": "juancgalueweb",
+        "url": "https://github.com/juancgalueweb"
+      },
+      {
+        "network": "WebPortfolio",
+        "username": "",
+        "url": "https://portfolio-juancgalueweb.vercel.app/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Desarrollador full stack autodidacta",
+      "position": "Desarrollador full-stack MERN",
+      "url": "https://portfolio-juancgalueweb.vercel.app/",
+      "startDate": "2021-11-01",
+      "endDate": null,
+      "summary": "Con dos años de experiencia trabajando con el stack de MERN y desarrollando proyectos personales, he adquirido un sólido dominio en el desarrollo backend utilizando TypeScript, JavaScript, Node.js, Express.js y MongoDB. En el frontend, tengo experiencia con React, Next.js, HTML, CSS, TypeScript, JavaScript, Astro, Tailwind CSS, Zustand, Shadcn, entre otros. Durante el año 2023, participé en dos simulaciones laborales con No Country, lo que me permitió desarrollar habilidades colaborativas y obtener experiencia en entornos de desarrollo en equipo. En estas simulaciones, trabajé siguiendo la metodología Scrum.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNEFA - Venezuela",
+      "url": "",
+      "area": "Ingeniero Eléctrico",
+      "studyType": "Bachelor",
+      "startDate": "2001-09-01",
+      "endDate": "2006-10-01",
+      "score": "14.79",
+      "courses": []
+    },
+    {
+      "institution": "Coding Dojo LATAM Chile",
+      "url": "",
+      "area": "Desarrollador Full Stack MERN",
+      "studyType": "Bachelor",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "score": "20",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "Node.js",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "macOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Shadcn",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ant Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Material UI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Zustand",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mongoose",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Postgres",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeORM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AWS EC2",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AWS S3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AWS IAM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vitest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Despliegue de aplicaciones",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado",
+      "url": "https://www.efset.org/cert/HbFMs3"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chat en tiempo real con Socket.IO",
+      "isActive": false,
+      "description": "Proyecto full-stack con MERN, con la finalidad de practicar el uso de Socket.IO para crear un chat en tiempo real.",
+      "highlights": [
+        "Socket.IO",
+        "Zustand",
+        "MongoDB",
+        "React"
+      ],
+      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/chat-app",
+      "github": "https://github.com/juancgalueweb/chat-app"
+    },
+    {
+      "name": "Clon de Google Translate",
+      "isActive": false,
+      "description": "Realizado con Typescript y la API de OpenIA. Soporta 3 idiomas.",
+      "highlights": [
+        "useReducer",
+        "React",
+        "Typescript",
+        "Express",
+        "Node",
+        "OpenIA"
+      ],
+      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/google-translate-clone-app",
+      "github": "https://github.com/juancgalueweb/google-translate-clone"
+    },
+    {
+      "name": "Organizador de tareas",
+      "isActive": true,
+      "description": "App para organizar tareas que consta de dos partes principales, la administración de los usuarios y de las tareas.",
+      "highlights": [
+        "React",
+        "Typescript",
+        "Ant Design",
+        "Zustand",
+        "Linode",
+        "json-web-token",
+        "mongoDB"
+      ],
+      "url": "https://todos.juancgalue-web.cl/",
+      "github": "https://github.com/juancgalueweb/todo-app-ts"
+    },
+    {
+      "name": "Base de datos de cocteles",
+      "isActive": false,
+      "description": "App que consume una API de una base de datos de cocteles.",
+      "highlights": [
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "Ant Design"
+      ],
+      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/cocktailsdb-app",
+      "github": "https://github.com/juancgalueweb/cocktailsdb-nextjs"
+    },
+    {
+      "name": "Biblioteca con administradores / lectores",
+      "description": "CRUD completo de usuarios y libros con puntuación y comentarios.",
+      "highlights": [
+        "roles",
+        "rutas protegidas",
+        "email transaccionales",
+        "OTP",
+        "React",
+        "Javascript",
+        "MongoDB"
+      ],
+      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/library-app",
+      "github": "https://github.com/juancgalueweb/biblioteca_con_roles"
+    },
+    {
+      "name": "Registro de tus vinos favoritos",
+      "description": "Con login y registro de usuarios, CRUD de vinos y comentarios.",
+      "highlights": [
+        "Docker",
+        "Caddy",
+        "AWS S3",
+        "aws sdk",
+        "React",
+        "Javascript",
+        "MongoDB"
+      ],
+      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/library-app",
+      "github": "https://github.com/juancgalueweb/biblioteca_con_roles"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+---
+import Section from '../Section.astro'
+---
+
+<Section>
+  <div class='alert no-print' role='alert'>
+    <svg
+      aria-hidden='true'
+      xmlns='http://www.w3.org/2000/svg'
+      fill='currentColor'
+      viewBox='0 0 20 20'
+    >
+      <path
+        d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z'
+      ></path>
+    </svg>
+    <span class='sr-only'>Info</span>
+    <div>
+      <span class='font-medium'>¡Importante!</span> El resto de mis proyectos y mis
+      cursos, están en mi <a
+        href='https://portfolio-juancgalueweb.vercel.app/'
+        target='_blank'
+        title='Portafolio de proyectos'
+        rel='noopener noreferrer'>portafolio</a
+      >.
+    </div>
+  </div>
+</Section>
+
+<style>
+  .alert {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #1e40af;
+    border: 1px solid #a5cafd;
+    border-radius: 0.375rem;
+    background-color: #ebf5ff;
+  }
+
+  .alert svg {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.75rem;
+  }
+
+  .alert path {
+    fill: #1a237e;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  .alert .font-medium {
+    font-weight: 600;
+  }
+
+  .alert a {
+    color: #1e40af;
+    text-decoration: underline;
+  }
+
+  .alert a:hover {
+    text-decoration: none;
+  }
+</style>

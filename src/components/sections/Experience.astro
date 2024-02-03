@@ -1,0 +1,143 @@
+---
+import Section from '../Section.astro'
+
+import { work } from '@cv'
+---
+
+<Section title='Experiencia laboral - proyectos personales/grupales'>
+  <ul>
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+          let startingDateToShow = ''
+          let endingDateToShow = ''
+          let endingDate = ''
+
+          if (startDate !== null) {
+            const sDateArray = startDate.split('-')
+            const sDate = new Date(
+              Date.UTC(
+                parseInt(sDateArray[0]),
+                parseInt(sDateArray[1]) - 1,
+                parseInt(sDateArray[2])
+              )
+            )
+            startingDateToShow = sDate.toLocaleString('es-CL', {
+              month: 'short',
+              year: 'numeric',
+              timeZone: 'UTC'
+            })
+          }
+
+          if (endDate !== null) {
+            const eDateArray = endDate.split('-')
+            const eDate = new Date(
+              Date.UTC(
+                parseInt(eDateArray[0]),
+                parseInt(eDateArray[1]) - 1,
+                parseInt(eDateArray[2])
+              )
+            )
+            endingDate = eDate.toLocaleString('es-CL', {
+              month: 'short',
+              year: 'numeric',
+              timeZone: 'UTC'
+            })
+          }
+
+          endingDateToShow = endDate != null ? endingDate : 'Actual'
+          const years = `${startingDateToShow} / ${endingDateToShow}`
+
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>
+                      <a href={url} title={`Ver ${name}`} target='_blank'>
+                        {name}
+                      </a>
+                    </h3>
+                    <h4>{position}</h4>
+                  </div>
+
+                  <time>{years}</time>
+                </header>
+                <article>
+                  <p>{summary}</p>
+                </article>
+                <footer>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>
+                  })}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  footer {
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>
