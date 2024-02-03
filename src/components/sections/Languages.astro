@@ -4,7 +4,7 @@ import { languages } from '@cv'
 import Section from '../Section.astro'
 ---
 
-<Section title='Idiomas'>
+<Section title='Languages'>
   <ul>
     {
       languages.map(({ language, fluency, url }) => {
@@ -12,11 +12,7 @@ import Section from '../Section.astro'
           <li>
             <h3>{language}</h3> - <span>{fluency}</span>
             {url && (
-              <a
-                href={url}
-                target='_blank'
-                title={`Ver diploma del idioma ${language}`}
-              >
+              <a href={url} target='_blank' title='View certificate'>
                 <Diploma />
               </a>
             )}

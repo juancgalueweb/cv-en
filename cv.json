@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "juancgalue",
-        "url": "https://www.linkedin.com/in/juancgalue/"
+        "url": "https://www.linkedin.com/in/juancgalue/?locale=en_US"
       },
       {
         "network": "GitHub",
@@ -28,18 +28,18 @@
       {
         "network": "WebPortfolio",
         "username": "",
-        "url": "https://portfolio-juancgalueweb.vercel.app/"
+        "url": "https://portfolio-juancgalueweb.vercel.app/en"
       }
     ]
   },
   "work": [
     {
-      "name": "Desarrollador full stack autodidacta",
-      "position": "Desarrollador full-stack MERN",
-      "url": "https://portfolio-juancgalueweb.vercel.app/",
+      "name": "Freelance full stack developer",
+      "position": "MERN Full Stack Developer",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en",
       "startDate": "2021-11-01",
       "endDate": null,
-      "summary": "Con dos años de experiencia trabajando con el stack de MERN y desarrollando proyectos personales, he adquirido un sólido dominio en el desarrollo backend utilizando TypeScript, JavaScript, Node.js, Express.js y MongoDB. En el frontend, tengo experiencia con React, Next.js, HTML, CSS, TypeScript, JavaScript, Astro, Tailwind CSS, Zustand, Shadcn, entre otros. Durante el año 2023, participé en dos simulaciones laborales con No Country, lo que me permitió desarrollar habilidades colaborativas y obtener experiencia en entornos de desarrollo en equipo. En estas simulaciones, trabajé siguiendo la metodología Scrum.",
+      "summary": "With two years of experience working with the MERN stack and engaging in personal projects, I have developed a strong proficiency in backend development using TypeScript, JavaScript, Node.js, Express.js, and MongoDB. On the frontend, I am well-versed in React, Next.js, HTML, CSS, TypeScript, JavaScript, Astro, Tailwind CSS, Zustand, Shadcn, among others. In 2023, I participated in two work simulations with No Country, enhancing my collaborative skills and gaining experience in team development environments. Throughout these simulations, I followed the Scrum methodology.",
       "highlights": []
     }
   ],
@@ -60,7 +60,7 @@
     {
       "institution": "UNEFA - Venezuela",
       "url": "",
-      "area": "Ingeniero Eléctrico",
+      "area": "Electrical Engineer",
       "studyType": "Bachelor",
       "startDate": "2001-09-01",
       "endDate": "2006-10-01",
@@ -70,7 +70,7 @@
     {
       "institution": "Coding Dojo LATAM Chile",
       "url": "",
-      "area": "Desarrollador Full Stack MERN",
+      "area": "MERN Full Stack Developer",
       "studyType": "Bachelor",
       "startDate": "2021-08-01",
       "endDate": "2021-12-01",
@@ -307,19 +307,19 @@
       "keywords": []
     },
     {
-      "name": "Despliegue de aplicaciones",
+      "name": "Applications deployment",
       "level": "",
       "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "language": "Spanish",
+      "fluency": "Native"
     },
     {
-      "language": "Inglés",
-      "fluency": "Avanzado",
+      "language": "English",
+      "fluency": "Advanced",
       "url": "https://www.efset.org/cert/HbFMs3"
     }
   ],
@@ -340,22 +340,22 @@
   ],
   "projects": [
     {
-      "name": "Chat en tiempo real con Socket.IO",
+      "name": "Real-time chat with Socket.IO",
       "isActive": false,
-      "description": "Proyecto full-stack con MERN, con la finalidad de practicar el uso de Socket.IO para crear un chat en tiempo real.",
+      "description": "Full-stack project with MERN, with the purpose of practicing the use of Socket.IO to create a real-time chat.",
       "highlights": [
         "Socket.IO",
         "Zustand",
         "MongoDB",
         "React"
       ],
-      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/chat-app",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en/myprojects/chat-app",
       "github": "https://github.com/juancgalueweb/chat-app"
     },
     {
-      "name": "Clon de Google Translate",
+      "name": "Google Translate clone",
       "isActive": false,
-      "description": "Realizado con Typescript y la API de OpenIA. Soporta 3 idiomas.",
+      "description": "Made with Typescript and the OpenIA API. Supports 3 languages.",
       "highlights": [
         "useReducer",
         "React",
@@ -364,13 +364,13 @@
         "Node",
         "OpenIA"
       ],
-      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/google-translate-clone-app",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en/myprojects/google-translate-clone-app",
       "github": "https://github.com/juancgalueweb/google-translate-clone"
     },
     {
-      "name": "Organizador de tareas",
+      "name": "Task organizer with user management",
       "isActive": true,
-      "description": "App para organizar tareas que consta de dos partes principales, la administración de los usuarios y de las tareas.",
+      "description": "App to organize tasks that consists of two main parts, the administration of users and tasks.",
       "highlights": [
         "React",
         "Typescript",
@@ -384,36 +384,37 @@
       "github": "https://github.com/juancgalueweb/todo-app-ts"
     },
     {
-      "name": "Base de datos de cocteles",
+      "name": "CocktailsDB app with Next.js",
       "isActive": false,
-      "description": "App que consume una API de una base de datos de cocteles.",
+      "description": "App that consumes an API from a cocktail database.",
       "highlights": [
         "Next.js",
         "Typescript",
         "Tailwind CSS",
-        "Ant Design"
+        "Ant Design",
+        "plaiceholder"
       ],
-      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/cocktailsdb-app",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en/myprojects/cocktailsdb-app",
       "github": "https://github.com/juancgalueweb/cocktailsdb-nextjs"
     },
     {
-      "name": "Biblioteca con administradores / lectores",
-      "description": "CRUD completo de usuarios y libros con puntuación y comentarios.",
+      "name": "Library with administrators / readers",
+      "description": "Full CRUD of users and books with ratings and comments.",
       "highlights": [
         "roles",
-        "rutas protegidas",
-        "email transaccionales",
+        "protected routes",
+        "transactionals emails",
         "OTP",
         "React",
         "Javascript",
         "MongoDB"
       ],
-      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/library-app",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en/myprojects/library-app",
       "github": "https://github.com/juancgalueweb/biblioteca_con_roles"
     },
     {
-      "name": "Registro de tus vinos favoritos",
-      "description": "Con login y registro de usuarios, CRUD de vinos y comentarios.",
+      "name": "Register your favorite wines",
+      "description": "With login and user registration, wine CRUD and comments.",
       "highlights": [
         "Docker",
         "Caddy",
@@ -423,7 +424,7 @@
         "Javascript",
         "MongoDB"
       ],
-      "url": "https://portfolio-juancgalueweb.vercel.app/myprojects/library-app",
+      "url": "https://portfolio-juancgalueweb.vercel.app/en/myprojects/library-app",
       "github": "https://github.com/juancgalueweb/biblioteca_con_roles"
     }
   ]

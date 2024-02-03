@@ -48,7 +48,7 @@ const printInfo = [email, phone, linkedUrl, portfolioUrl]
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send an email to ${name} to the email ${email}`}
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -60,7 +60,7 @@ const printInfo = [email, phone, linkedUrl, portfolioUrl]
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call ${name} to the number ${phone}`}
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -76,7 +76,7 @@ const printInfo = [email, phone, linkedUrl, portfolioUrl]
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit ${name}'s projects in ${network}`}
                 target='_blank'
                 rel='noopener noreferrer'
               >

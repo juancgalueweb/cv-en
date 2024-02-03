@@ -1,42 +1,14 @@
 ---
-import Section from '../Section.astro'
-
 import { education } from '@cv'
+import { formatDate } from '../../helpers/dates'
+import Section from '../Section.astro'
 ---
 
-<Section title='Educación'>
+<Section title='Education'>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
-        const sDateArray = startDate.split('-')
-        const sDate = new Date(
-          Date.UTC(
-            parseInt(sDateArray[0]),
-            parseInt(sDateArray[1]) - 1,
-            parseInt(sDateArray[2])
-          )
-        )
-        const startingDateToShow = sDate.toLocaleString('es-CL', {
-          month: 'short',
-          year: 'numeric',
-          timeZone: 'UTC'
-        })
-
-        const eDateArray = endDate.split('-')
-        const eDate = new Date(
-          Date.UTC(
-            parseInt(eDateArray[0]),
-            parseInt(eDateArray[1]) - 1,
-            parseInt(eDateArray[2])
-          )
-        )
-        const endingDateToShow = eDate.toLocaleString('es-CL', {
-          month: 'short',
-          year: 'numeric',
-          timeZone: 'UTC'
-        })
-
-        const years = `${startingDateToShow} / ${endingDateToShow}`
+        const years = formatDate(startDate, endDate)
 
         return (
           <li>
